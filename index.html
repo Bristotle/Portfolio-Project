@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta  http-equiv="X-UA Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7026559701.js" crossorigin="anonymous"></script>
+</head> 
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            
+           
+<img src ="images/Emmanuel.png" class="logo">
+            <ul id="sidemenu">
+                <i class="fas fa-times" onclick="closemenu()"></i>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p style="margin-bottom: 50px;">Web Developer - SEO Specialist</p>
+            <h1>Hi, I'm <span>Emmanuel</span><br>From Accra, Ghana</h1>            
+            <p style="margin-top: 20px; font-style: italic;">Let's unlock your business's true potential...</p>
+        </div>
+
+    </div>
+</div>
+<!-- About Section -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I am a seasoned front-end developer, digital marketing, and SEO professional with extensive experience and a profound understanding of WordPress (eCommerce), blogging, personal websites, NGOs and solutions for different Tech needs. Skilled in frontend development, I excel in crafting visually appealing, user-friendly websites using cutting-edge technologies such as HTML, CSS, JavaScript, React, Bootstrap, Tailwind, SQL, and PHP. Additionally, I possess niche expertise in rapidly learning and adapting to the latest Web development technologies, and SEO tools and trends, ensuring the implementation of the most innovative and effective solutions for diverse projects. Proficient in creating and implementing highly effective marketing campaigns tailored to drive engagement, leads, and sales specifically for WordPress-based eCommerce platforms and personal blogs, websites, and NGO initiatives. My proficiency extends to utilizing AI-driven Front-end technologies and SEO tools, data analytics, and WordPress plugins to optimize website performance and enhance search engine visibility, driving organic traffic and maximizing conversions across various platforms and industries.
+                </p>
+               <div class="tab-title">
+                <p>
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </p>
+               </div> 
+               <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Web Development</span><br>Create Sleek Frontend Experiences and Websites</li>
+                    <li><span>SEO</span><br>Deploy Effective SEO Tactics to Achieve Top Google Rankings and Boost Conversion Rates</li>
+                    <li><span>Digital Marketing</span><br>Craft and Execute ROI-Driven Digital Marketing Campaigns</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2023 - Current</span><br>Junior Front-end and SEO Executive @Higglo Digital, Dubai, United Arab Emirates · Remote</li>
+                    <li><span>2022 - 2023</span><br>Digital Marketing and SEO Team Lead @ChainyAcc, Budapest, Hungary · Remote</li>
+                    <li><span>2021 - 2022</span><br>Digital Marketing Facilitator, @Mest Africa, Accra, Ghana · On-site </li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2023</span><br>Google Digital Marketing & E-commerce Professional Certificate</li>
+                    <li><span>2022</span><br>Digital Marketing Professional Certificate from MEST Africa</li>
+                    <li><span>BSc</span><br>BSc Information Technology at Ghana Communication Technology University, Accra, Ghana</li>
+                </ul>
+               </div>
+            </div>
+        </div>        
+</div>
+        <!-- ---services--------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2 style="color: white;">Web Development</h2>
+                <p>
+                    Whether you need to create a new website or update your current one, I have the expertise to transform your business's online presence. Let's create something awesome together. I'll bring your projects to life, from design to development. 
+                    <br> <!-- Add a line break for spacing -->
+                    <span style="color: white;">∞</span> Custom Design. <br>
+                    <span style="color: white;">∞</span> Precise Development. <br>
+                    <span style="color: white;">∞</span> SEO Friendly.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            
+        <div>
+            <i class="fa-solid fa-chart-line"></i>
+            <h2 style="color: white;">Search Engine Optimization</h2>
+            <p>
+                From setting campaign goals and running competitive analyses to assisting with site migrations, i offer strategic support that aligns your search engine optimization performance with your KPIs.
+                <br> <!-- Add a line break for spacing -->
+                <span style="color: white;">∞</span> SEO Audits & Technical Optimization <br>
+                <span style="color: white;">∞</span> Content Writing <br>
+                <span style="color: white;">∞</span> Content Optimization <br>
+                <span style="color: white;">∞</span> Backlink Acquisition <br>
+                <span style="color: white;">∞</span> Keyword Analysis <br>
+                <span style="color: white;">∞</span> ...and more!
+            </p>
+            <a href="#">Learn More</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-desktop"></i>
+            <h2 style="color: white;">Digital Marketing</h2>
+            <p>
+                Execute ROI-Driven Digital Marketing Campaigns leveraging powerful tools such as Google Analytics, Facebook Ads, and SEO best practices. Enhance social signals, boost email conversions, and captivate your audience with compelling content and strategic marketing automation. With my expertise in data-driven strategies, I'll ensure maximum impact and measurable results for your business.
+            </p>
+            <a href="#">Learn More</a>
+        </div>
+        
+    </div>
+
+</div>
+<!-----------Portolio Section---------------->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/botghana.png" alt="BOT Ghana is the premuim best real estate company in Ghana">
+                <div class="layer">
+                    <h3 style="color: white;">BOT Properties</h3>
+                    <p>BOT Properties is the premier real estate company in Accra, Ghana. We are renowned for our expertise in real estate investment and development.</p>
+                    <a href="https://botghana.com"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ChainyAcc.png" alt="ChainyAcc, your web3 financial management platform">
+                <div class="layer">
+                    <h3 style="color: white;">ChainyAcc</h3>
+                    <p>An intelligent Web3 management platform that integrates, automates and easily manages all your financial assets and tasks.</p>
+                    <a href="https://chainyacc.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Higglo Digital.png" alt="Boost Your Online Presence with Higglo Digital">
+                <div class="layer">
+                    <h3 style="color: white;">Higglo Digital</h3>
+                    <p>Boost Your Online Presence with Higglo Digital, a leading web and SEO agency offering high-quality services tailored to elevate your brand..</p>
+                    <a href="https://www.higglo.io/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+    <!---------------Contact Section----------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> emmanuelakyeam@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> +233 (0) 247902348</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/emmanuelakyeam/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/AkyeamManuel" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+                <a href="images/CV EMMANUEL AKYEAM 2 Pages .pdf" download class="btn btn2">Download CV</a>
+            </div> 
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">
+                </span>
+                
+        </div>
+    </div>  
+</div>
+<div class="copyright">
+    <p>Copyright &copy; Emmanuel Akyeam. --- You're either Remarkable or Invisible. Make the Right Choice</p>
+</div>
+</div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwojkusS2eHYwH7J8_yGx_pXCLDEYx6AixfDT1RTPowAHJsR9shjhinCgttqtXhd4nDzg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Your message has been sent. Thank you!";
+            setTimeout(function(){
+                msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
